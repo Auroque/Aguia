@@ -30,20 +30,15 @@
 			<div class="row">
 				<div class="col-md-2" id="logo">
 					<a href="<?php echo get_option('home') ?>">
-					<img class="logo" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Cometili Logo"></a>
+						<img class="logo" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Cometili Logo">
+					</a>
 				</div>
-				<button class="busca"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
 				<div class="campo_busca">
-					<div class="col-md-9 btn-resp">
+					<div class="col-md-10 btn-resp">
 						<div class="posicao">
 							<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 						</div>
 					</div>	
-					<div class="col-md-1 login">
-						<div class="centralizar">							
-							<a class="btn btn-default" href="https://www.cometili.com.br/sistema" role="button" target="_blank">LOGIN</a>						
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>

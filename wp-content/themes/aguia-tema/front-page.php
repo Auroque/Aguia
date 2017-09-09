@@ -1,4 +1,4 @@
-<?php get_header('home'); ?>
+<?php get_header(); ?>
 
 <!-- Início do Slider -->
 <?php 
