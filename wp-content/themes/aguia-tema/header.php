@@ -30,7 +30,7 @@
 			<div class="row">
 				<div class="col-md-2" id="logo">
 					<a href="<?php echo get_option('home') ?>">
-						<img class="logo" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Cometili Logo">
+						<img class="logo" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Aguia Utilidades">
 					</a>
 				</div>
 				<div class="campo_busca">
