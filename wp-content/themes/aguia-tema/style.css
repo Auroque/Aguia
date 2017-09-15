@@ -5,8 +5,114 @@ Description: Utilidades em Geral.
 Version: 1.0
 */
 
+h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Josefin Sans', sans-serif;
+}
 
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.navegacao-mobile{
+	display: none;
+}
+
+.logo{
+	width: 100%;
+}
+
+.navegacao-desktop .row{
+	margin-bottom: 0;
+}
+
+.posicao{
+	float: right;
+}
+
+.menu-principal-menu-container ul{
+	line-height:108px;
+	margin-bottom: 0
+}
+
+.menu-principal-menu-container ul li{
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.current-menu-item a{
+	color:#000!important;
+}
+
+.menu-principal-menu-container ul li a{
+	text-decoration: none;
+	color: #555;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	transition: 0.5s;
+}
+
+.busca{
+	display: none;
+}
+
+.rodape{
+	background-color: #f2f2f2;
+}
 
 @media (max-width: 800px){
-	
+	.navegacao-desktop{
+		display: none;
+	}
+
+	.navegacao-mobile{
+		display: block;
+	}
+
+	.navegacao-mobile .row{
+		margin-bottom: 0;
+	}
+
+	.busca{
+		display: inline-block;
+    	background-color: #ffffff;
+    	border: 1px solid #555;
+    	border-radius: 5px;
+    	padding: 5px 10px;
+	}
+
+	.glyphicon{
+		font-size: 1.5em;
+    	line-height: 25px;
+	}
+
+	button:focus{
+		background-color:#ccc;
+	}
+
+	.campo_busca{
+		display: none;
+		width: 100%;
+	}
+
+	.posicao{
+		float: left;
+		width: 100%;
+	}
+
+	.menu-principal-menu-container ul{
+		line-height: 50px;
+	}
+
+	.menu-principal-menu-container ul li{
+		display: block;
+		margin-left: 0;
+		text-align: center;
+	}
+
 }
