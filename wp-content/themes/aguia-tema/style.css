@@ -34,6 +34,10 @@ h3{
 	width: 100%;
 }
 
+.navegacao-desktop{
+	border-bottom:1px solid #ccc;
+}
+
 .navegacao-desktop .row{
 	margin-bottom: 0;
 }
@@ -149,6 +153,40 @@ h3{
 	margin-top: 20%;
 }
 
+.menu-produtos{
+	background-color: #FFFAFA;
+}
+
+#sidbar{
+	background-color: #f2f2f2;
+	padding-bottom: 20px;
+	margin-top: 40px;
+	border: 1px solid #b1b1b1;
+}
+
+#sidbar h2{
+	width: 100%;
+	background-color: #1b1b1b;
+	color: #ffffff;
+	padding: 5px 0 0 5px;
+}
+
+#sidbar ul li{
+	padding-top: 3px;
+	border-bottom: 1px solid #b1b1b1;
+}
+
+#sidbar ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 2em;
+	color: #787878;
+}
+
+#sidbar ul li a:hover{
+	font-weight: 700;
+}
+
 @media (max-width: 800px){
 	.navegacao-desktop{
 		display: none;
@@ -213,6 +251,10 @@ h3{
 
 	.texto-slider h3{
 		margin-top: 20px;
+	}
+
+	#sidbar{
+		margin-top: 0;
 	}
 
 }
