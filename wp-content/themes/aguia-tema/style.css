@@ -119,6 +119,35 @@ h3{
 	padding: 50px;
 }
 
+#slider{
+	padding: 0;
+}
+
+#slider .container .row{
+	margin-bottom: 0;
+}
+
+.container-img{
+	width: 100%;
+	min-height:600px;
+	max-height: 600px;
+	overflow: hidden;	
+}
+
+.texto-slider{
+	position: absolute;
+	width: 90%;
+    margin: 0 auto;
+}
+
+.texto-slider h3{
+	font-size: 3em;
+	font-weight: 700;
+	color: #ffffff;
+	text-shadow: 1px 1px 6px #1b1b1b;
+	line-height: 500px;
+}
+
 @media (max-width: 800px){
 	.navegacao-desktop{
 		display: none;
@@ -159,6 +188,10 @@ h3{
 		width: 100%;
 	}
 
+	.principais-produtos{
+		padding:10px;
+	}
+
 	.menu-principal-menu-container ul{
 		line-height: 50px;
 	}
@@ -167,6 +200,18 @@ h3{
 		display: block;
 		margin-left: 0;
 		text-align: center;
+	}
+
+	.container-img{
+		min-height: 270px;
+	}
+
+	.texto-slider{
+		margin-top: 2%;
+	}
+
+	.texto-slider h3{
+		line-height: 1;
 	}
 
 }

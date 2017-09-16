@@ -16,11 +16,17 @@
 	?>
 	<?php if ($sections->have_posts()): ?>
 		<?php while ($sections->have_posts()) : $sections->the_post(); ?>
-		<div class="col-md-3 altura">
-			<div class="cont-img">
-				<img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;" />
+		<div class="section" id="slider">
+			<div class="container">
+				<div class="row">
+					<div class="texto-slider">
+						<h3><?php the_title(); ?></h3>						
+					</div>
+				</div>
 			</div>
-			<h3><?php the_title(); ?></h3>
+			<div class="container-img">
+				<img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;" />				
+			</div>
 		</div>
 		<?php endwhile; ?>
 <?php endif; ?>
