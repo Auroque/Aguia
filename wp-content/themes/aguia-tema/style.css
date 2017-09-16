@@ -135,17 +135,18 @@ h3{
 }
 
 .texto-slider{
-	position: absolute;
+	position: relative;
 	width: 90%;
     margin: 0 auto;
 }
 
 .texto-slider h3{
+	position: absolute;
 	font-size: 3em;
 	font-weight: 700;
 	color: #ffffff;
 	text-shadow: 1px 1px 6px #1b1b1b;
-	line-height: 500px;
+	margin-top: 20%;
 }
 
 @media (max-width: 800px){
@@ -211,7 +212,7 @@ h3{
 	}
 
 	.texto-slider h3{
-		line-height: 1;
+		margin-top: 20px;
 	}
 
 }
