@@ -1,5 +1,6 @@
 <?php 
 include "widget/rodape-local.php";
+include "posttype/principais-produtos.php";
 
 function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu' ));
